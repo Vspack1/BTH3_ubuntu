@@ -59,25 +59,27 @@ ln -s phanmem/laptrinh/shellscript/shell1 phanmem/slkshell
 echo "--- Nội dung symbolic link ---"
 cat phanmem/slkshell
 
-# 16. Liệt kê thư mục /etc vào file thongke
+16.xem file
+
+# 17. Liệt kê thư mục /etc vào file thongke
 ls /etc > phanmem/laptrinh/common/thongke
 
-# 17. Xem theo trang
+# 18. Xem theo trang
 echo "--- Xem thongke (trang đầu) ---"
 head -n 10 phanmem/laptrinh/common/thongke
 
-# 18. Xem 5 dòng đầu tiên
+# 19. Xem 5 dòng đầu tiên
 echo "--- 5 dòng đầu ---"
 head -n 5 phanmem/laptrinh/common/thongke
 
-# 19. Xem 5 dòng cuối cùng
+# 20. Xem 5 dòng cuối cùng
 echo "--- 5 dòng cuối ---"
 tail -n 5 phanmem/laptrinh/common/thongke
 
-# 20. Thiết lập quyền tập tin thongke
+# 21. Thiết lập quyền tập tin thongke
 chmod 644 phanmem/laptrinh/common/thongke
 
-# 21. Thiết lập quyền thư mục common
+# 22. Thiết lập quyền thư mục common
 chmod 755 phanmem/laptrinh/common
 
 echo "=== HOÀN THÀNH BÀI THỰC HÀNH ==="
