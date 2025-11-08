@@ -67,6 +67,8 @@ ls /etc > phanmem/laptrinh/common/thongke
 # 18. Xem theo trang
 echo "--- Xem thongke (trang đầu) ---"
 head -n 10 phanmem/laptrinh/common/thongke
+pg phanmem/slkshell
+
 
 # 19. Xem 5 dòng đầu tiên
 echo "--- 5 dòng đầu ---"
