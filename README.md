@@ -59,7 +59,7 @@ ln -s phanmem/laptrinh/shellscript/shell1 phanmem/slkshell
 echo "--- Nội dung symbolic link ---"
 cat phanmem/slkshell
 
-16.xem file
+16.xem file (readlink tên file)
 
 # 17. Liệt kê thư mục /etc vào file thongke
 ls /etc > phanmem/laptrinh/common/thongke
